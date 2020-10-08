@@ -1,0 +1,27 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="black" class="toolbar">
+
+    <ion-buttons slot="start" *ngIf="loggedIn">
+        <ion-button shape="round" class="red" (click)="onClickLogout()">
+          <ion-icon slot="icon-only" name="log-out-outline"></ion-icon>   
+        </ion-button>
+      </ion-buttons>
+
+      <ion-title class="title"> 
+        Friendly Water
+      </ion-title>
+
+    <ion-buttons slot="end">
+      <ion-button shape="round" (click)="onClickToolbarMenu()" [ngClass]="{'green': loggedIn, 'red': !loggedIn}">
+        <ion-icon slot="icon-only" name="person-circle"></ion-icon>       
+      </ion-button>
+    </ion-buttons>    
+    
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+    <app-map></app-map>
+
+</ion-content>

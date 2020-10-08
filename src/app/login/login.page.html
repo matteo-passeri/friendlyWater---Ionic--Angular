@@ -1,0 +1,50 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary" class="toolbar">
+    
+    <ion-title>      
+      Friendly Water
+    </ion-title>
+    
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+
+  
+
+  <ion-list>
+
+    <div *ngIf="!isShow" class="title"><h1>LOGIN</h1></div>
+    <div *ngIf="isShow" class="title"><h1>REGISTER</h1></div>
+
+    <ion-item>
+        <ion-label position="floating">Email</ion-label>
+        <ion-input type="text" [(ngModel)]="email"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Password</ion-label>
+      <ion-input type="password" [(ngModel)]="password"></ion-input>
+    </ion-item>
+
+    <ion-item *ngIf="isShow">
+      <ion-label position="floating">Confirm Password</ion-label>
+      <ion-input type="password" [(ngModel)]="cpassword"></ion-input>
+    </ion-item>
+
+    <ion-button *ngIf="isShow" fill="solid" expand="block" color="dark" (click)="register()">Register</ion-button>
+
+    <ion-button *ngIf="!isShow" fill="solid" expand="block" color="dark" (click)="login()">Login</ion-button>
+
+    <ion-button *ngIf="!isShow" fill="solid" expand="block" color="dark" (click)="auth.googleSignIn()">Login with Google Account</ion-button>
+
+    <a *ngIf="!isShow" (click)="loginRegisterSwitcher()">New here? Create a new Account.</a>
+  
+    <a *ngIf="isShow" (click)="loginRegisterSwitcher()">Go to Login.</a>
+    
+  </ion-list>
+
+  
+  
+</ion-content>

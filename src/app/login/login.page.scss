@@ -1,0 +1,39 @@
+ion-content {
+    --background: url('../assets/img/loginBackground-LOW.jpg');
+    --background-repeat: no-repeat;
+    --background-position: center;
+    --background-size: cover;
+}
+
+ion-list {
+    margin: 45px 5px 15px 5px;
+    padding: 15px 15px 55px 15px;
+
+    background: rgba($color: grey, $alpha: 0.5);
+
+    ion-item {
+        --background: none;
+    }
+
+    .title {
+        text-align: center;
+        color: yellow;
+        font-size: large;
+        font-weight: 700;
+    }
+}
+
+ion-button {
+    margin: 25px 25px 25px 25px; 
+    background: transparent;
+}
+
+a {
+    margin: 25px;
+    color: yellow;
+    background: rgba($color: grey, $alpha: 0.5);
+    text-decoration-line: underline;
+    font-size: large;
+    font-weight: 300;
+}
+

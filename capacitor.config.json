@@ -1,0 +1,13 @@
+{
+  "appId": "friendlywaterionic",
+  "appName": "FriendlyWater",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}

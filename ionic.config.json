@@ -1,0 +1,7 @@
+{
+  "name": "FriendlyWater",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
