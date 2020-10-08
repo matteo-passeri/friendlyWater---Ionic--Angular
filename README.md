@@ -9,7 +9,7 @@ GoogleMaps API
 ---
 
 A map of your surrounding showing safe docks for small boats (Officials and Unofficials).
-Official SIte: https://friendlywaterapp.web.app/tabs/map
+Official Site: https://friendlywaterapp.web.app/tabs/map
 
 ---
 
