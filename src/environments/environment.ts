@@ -4,14 +4,14 @@
 
 export const environment = {
   production: false,
-  API_KEY: 'AIzaSyC77mdkt4YtAIq0cAHYIj_yBO74SyVufis',
-  AUTH_DOMAIN: 'friendlywaterapp.firebaseapp.com',
-  DATABASE_URL: 'https://friendlywaterapp.firebaseio.com',
-  PROJECT_ID: 'friendlywaterapp',
-  STORAGE_BUCKET: 'friendlywaterapp.appspot.com',
-  MESSAGING_SENDER_ID: '613784009728',
-  APP_ID: '1:613784009728:web:ec7b449aa63608b17b2ce5',
-  MEASUREMENT_ID: 'G-GVYZXBQMXK'
+  API_KEY: ,
+  AUTH_DOMAIN: ,
+  DATABASE_URL: ,
+  PROJECT_ID: ,
+  STORAGE_BUCKET: ,
+  MESSAGING_SENDER_ID: ,
+  APP_ID: ,
+  MEASUREMENT_ID: 
 };
 
 /*
