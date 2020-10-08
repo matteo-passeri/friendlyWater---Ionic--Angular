@@ -6,9 +6,11 @@ Ionic Framework,
 Angular,
 Firebase,
 GoogleMaps API
+
 ---
 
 A map of your surrounding showing safe docks for small boats (Officials and Unofficials).
+---
 Official Site: https://friendlywaterapp.web.app/tabs/map
 
 ---
